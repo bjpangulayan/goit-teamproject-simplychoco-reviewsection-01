@@ -147,6 +147,15 @@
     .reviews-cx3 {
         display: none;
     }
+    .list {
+        margin: auto;
+    }
+    .dotslides {
+        margin-top: 20px;
+    }
+    .review-btn {
+        margin-top: 50px;
+    }
 }
 
 @media (max-width:767px) {
@@ -156,4 +165,12 @@
     .reviews-cx2 {
         display: none;
     }
+ .dotslides {
+     margin-top: 20px;
+ }
+
+ .review-btn {
+     margin-top: 50px;
+ }
+
 }
