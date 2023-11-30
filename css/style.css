@@ -20,13 +20,14 @@
     @media screen and (min-width: 768px) {
         width: 768px;
         margin: 0 auto;
-        
+              
     }
 
     @media screen and (min-width: 1200px) {
         width: 1200px;
         margin: 0 auto;
     }
+   
 }
 .reviews-caption {
     text-align: center;
@@ -58,7 +59,7 @@
     width: 80px;
     
 }
-.reviews-cx {
+.feedback {
      width: 360px;
     flex-shrink: 0;;
 
@@ -133,12 +134,26 @@
     width: 222px;
     height: 50px;
     padding: 14px 40px;
-    gap: 14px;
-    color: #111;
     background-color: #FFF;
     font-family: "Montserrat";
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+}
+/*Size styling*/
+
+@media (max-width:1199px) {
+    .reviews-cx3 {
+        display: none;
+    }
+}
+
+@media (max-width:767px) {
+    .reviews-cx3 {
+        display: none;
+    }
+    .reviews-cx2 {
+        display: none;
+    }
 }
